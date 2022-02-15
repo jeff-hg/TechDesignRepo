@@ -1,0 +1,14 @@
+  #include <PRIZM.h>
+  PRIZM prizm;
+
+void setup() {        
+
+  prizm.PrizmBegin();
+}
+
+void loop() {
+
+  prizm.setMotorPower(1,25);
+  prizm.setMotorPower(2,25);
+  
+}
