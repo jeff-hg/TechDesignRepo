@@ -1,14 +1,17 @@
-  #include <PRIZM.h>
-  PRIZM prizm;
+#include <PRIZM.h>
+PRIZM prizm;
+
+int motor_one_power = 25
+int motor_two_power = 25
 
 void setup() {        
 
   prizm.PrizmBegin();
 }
 
-void loop() {
+void loop(int motor_one_power, int motor_two_power) {
 
-  prizm.setMotorPower(1,25);
-  prizm.setMotorPower(2,25);
+  prizm.setMotorPower(1,motor_one_power);
+  prizm.setMotorPower(2,motor_two_power);
   
 }
