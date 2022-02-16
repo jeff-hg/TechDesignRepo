@@ -3,6 +3,8 @@ PRIZM prizm;
 
 int motor_one_power = 25
 int motor_two_power = 25
+int LeftMotor = 1
+int RightMotor = 2
 
 void setup() {        
 
