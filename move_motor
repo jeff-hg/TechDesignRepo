@@ -13,7 +13,7 @@ void setup() {
 
 void loop(int motor_one_power, int motor_two_power) {
 
-  prizm.setMotorPower(1,motor_one_power);
-  prizm.setMotorPower(2,motor_two_power);
+  prizm.setMotorPower(LeftMotor,motor_one_power);
+  prizm.setMotorPower(RightMotor,motor_two_power);
   
 }
