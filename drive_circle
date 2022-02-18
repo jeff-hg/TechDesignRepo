@@ -1,0 +1,16 @@
+#include <PRIZM.h>
+PRIZM prizm;
+
+leftMotor = 1
+leftMotorPower = 50
+rightMotor = 2
+rightMotorPower = 25
+
+void setup() {
+  prizm.PrizmBegin();
+  przim.setMotorInvert(leftMotor,1);  // Harmonize motor directions
+}
+
+void loop() {
+  prizm.setMotorPowers(leftMotorPower,rightMotorPower)  // Left motor power > right motor power, turns robot right
+}
